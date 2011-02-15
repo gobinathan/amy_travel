@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(index\.php)
+RewriteCond %{REQUEST_URI} !(install\.php)
+RewriteCond %{QUERY_STRING} !(direct)
+RewriteRule (.*) index.php?page=$1 [PT]
+
+
+RewriteCond %{QUERY_STRING} (direct)
+RewriteRule (.*) $1 [PT]
