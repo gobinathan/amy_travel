@@ -1,0 +1,86 @@
+.shadetabs{
+      float:left;
+      background:#F4F4F4;
+	  font: normal 10px Verdana;
+      line-height:normal;
+/*	  border-bottom:1px solid #24618E; */
+	  padding: 3px 0;
+	  margin-top:5px;
+}
+.shadetabs ul {
+	  margin:0;
+	  padding:10px 10px 0 50px;
+	  list-style:none;
+}
+.shadetabs li{
+      display:inline;
+      margin:0;
+      padding:0;
+}
+
+.shadetabs a{
+      float:left;
+      background:url("../img/tableftJ.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 5px;
+      text-decoration:none;
+		background-position:0% -42px;
+}
+.shadetabs a span {
+      float:left;
+      display:block;
+      background:url("../img/tabrightJ.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+		background-position:100% -42px;
+	color:#fff;
+}
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.shadetabs a span {float:none;}
+/* End IE5-Mac hack */
+.shadetabs a:hover span {
+  color:#FFF;
+}
+.shadetabs a:hover {
+      background:url("../img/tableftJ.gif") no-repeat left top;
+}
+.shadetabs a:hover span {
+      background:url("../img/tabrightJ.gif") no-repeat right top;
+      color:#24618E;
+}
+
+.shadetabs .selected a {
+      float:left;
+      background:url("../img/tableftJ.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 5px;
+      text-decoration:none;
+/* background-position:0% -42px; */
+}
+.shadetabs .selected a span {
+      float:left;
+      display:block;
+      background:url("../img/tabrightJ.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#24618E;
+/*  background-position:100% -42px; */
+}
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+	 	border-top:1px solid #24618E;
+		margin-top:30px;
+		width: 515px;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block!important;
+}
+}

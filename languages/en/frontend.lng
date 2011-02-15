@@ -1,0 +1,54 @@
+forgot_pass = "Forgot Password?"
+send_password = "Send Password"
+list_agencies = "List Agencies"
+
+#listing
+hint_listing_reserve = "Book Now"
+hint_listing_send = "Tell a friend"
+hint_listing_map = "See on the MAP"
+hint_listing_print = "Print"
+listing_details = "Details"
+listing_gallery = "Gallery"
+listing_video = "Video"
+listing_sublistings = "Related"
+listing_contact = "Contact"
+listing_map = "Map"
+member_name = "Member Name"
+contact = "Contact"
+contact_success_msg = "Your request have been sent. Thanks for your interest."
+interested_in = "Interested in"
+message = "Message"
+contact_submit = "Submit"
+reservation_success_msg = "Your reservation is sent. We'll contact you on the provided phone number to confirm your reservation."
+
+#newsletter
+newsletter_subscribe = "Subscribe"
+newsletter_unsubscribe = "UnSubscribe"
+newsletter_email_sent_to = "An email was sent to "
+newsletter_msg_subscribe = "Please check your email and click on the confirmation link to subscribe to our newsletter."
+newsletter_msg_confirm_subscribe = "Your email was successfuly confirmed"
+newsletter_msg_unsubscribe = "Please check your email and click on the confirmation link to unsubscribe from our newsletter."
+newsletter_msg_confirm_unsubscribe = "Your email was successfuly removed from our Newsletter"
+
+#register
+status_register_success = "Your registration is done!<br/>You can now login"
+status_register_confirm = "You must confirm your email address.<br/>Please check your email and click on the confirm link."
+status_register_approve = "Your registration is done!<br/>Your account must be approved first by the administrator. You will receive an email once your account is active."
+
+#mortgage calculator
+mortgage_calc = "Mortgage Calc"
+loan_amount = "Loan amount"
+duration_years = "years"
+interest_rate = "Interest rate"
+monthly_repayments = "Monthly repayments"
+calculate = "Calculate"
+
+#favourites
+continue = "Continue"
+fav_remove = "Remove from Favourites"
+fav_add = "Add to Favourites"
+favourites = "Favourites"
+no_favourites = "No favourites"
+
+#orders
+payment_gateway = "Choose the way to pay"
